@@ -1,11 +1,11 @@
 # Book settings
 title:
-author: World Bank
+author: BID
 logo: docs/images/logo.png
 only_build_toc_files: true
 
 repository:
-  url: https://github.com/worldbank/template
+  url: https://github.com/durandv/bid-tsp-indicadores
   branch: main
 
 #######################################################################################
