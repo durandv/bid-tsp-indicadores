@@ -3,17 +3,17 @@ requires = ["setuptools>=61.0.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "datalab"
+name = "bid-tsp-indicadores"
 dynamic = ["version"]
-description = "An Python exampe package from the World Bank Data Lab"
+description = "Indicators from BID TSP"
 readme = {file = "README.md", content-type = "text/markdown"}
 license = {file = "LICENSE"}
-keywords = ["world bank", "template", "reproducible research"]
+keywords = ["BID", "TSP", "indicators"]
 authors = [
-  {name="World Bank Development Data Group", email="datalab@worldbank.org"},
+  {name="BID", email="bid@bid.org"},
 ]
 maintainers = [
-  {name="Gabriel Stefanini Vicente", email="gvicente@worldbank.org"},
+  {name="Victor Durand", email="durandv@gmail.com"},
 ]
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -36,9 +36,9 @@ dependencies = [
 notebook = ["notebook>=6.5.2"]
 
 [project.urls]
-"Homepage" = "https://github.com/worldbank/template"
-"Bug Reports" = "https://github.com/worldbank/template/issues"
-"Source" = "https://github.com/worldbank/template"
+"Homepage" = "https://github.com/durandv/bid-tsp-indicadores"
+"Bug Reports" = "https://github.com/durandv/bid-tsp-indicadores/issues"
+"Source" = "https://github.com/durandv/bid-tsp-indicadores"
 
 [tool.setuptools.dynamic]
 version = {attr = "datalab.__version__"}
